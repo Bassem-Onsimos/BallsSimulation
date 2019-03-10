@@ -18,6 +18,7 @@ public class Game extends AbstractGame {
     @Override
     public void initiate() {
         controller = new Controller(this);
+        setFPSlimited(true);
         setDebugInfoDisplayed(false);
     }
 
